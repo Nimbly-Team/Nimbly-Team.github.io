@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+    background-image: url("/img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header {
+	min-height: 100px;
+}
+
+#logo_wrapper {
+	position: relative;
+	top: 50%;
+	width: 700px;
+	margin: auto;
+}
+
+#logo_text {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 6em;
+	margin-bottom: 55px;
+}
+
+#logo_text .orange {
+	color: orange;
+}
+
+.description-text {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Lora', serif;
+
+}
+
+#bubble {
+	padding: 15px;
+	background-color: white;
+	border-radius: 15px;
+	max-width: 700px;
+	margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo_text {
+		text-align: center;
+		font-family: 'Pacifico', cursive;
+		font-size: 4em;
+	}
+}
