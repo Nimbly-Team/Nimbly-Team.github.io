@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #bubble {
-	padding: 15px;
+	padding: 15px 25px 15px 25px;
 	background-color: white;
 	border-radius: 15px;
 	max-width: 700px;
